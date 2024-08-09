@@ -35,21 +35,21 @@ Using `python run.py`.
 Wordle game address: https://wordly.org/
 
 Step 1: Hereby for every time getting the result, noted in turn 0 to 5, turn 0 gives the initial result:
-![image01](https://github.com/user-attachments/assets/e503205e-46bf-4e7e-8b7e-5bef6d30343d | width=100)
+![image01](https://github.com/user-attachments/assets/e503205e-46bf-4e7e-8b7e-5bef6d30343d)
 png)
 This tells us the initial guess is `sanes`, then we input it into the wordle game, would find the result like below: `[Green, Grey, Grey, Green, Grey]`
-![image02](https://github.com/user-attachments/assets/c2f3d3d5-6330-46ba-bc92-570947602571 | width=100)
+![image02](https://github.com/user-attachments/assets/c2f3d3d5-6330-46ba-bc92-570947602571)
 
 Step 2: This gives us a number series as `20020`, we then input it like below:
-![image03](https://github.com/user-attachments/assets/21ea7a6d-e5d1-4f0e-a3ef-3c243cd302e9 | width=100)
+![image03](https://github.com/user-attachments/assets/21ea7a6d-e5d1-4f0e-a3ef-3c243cd302e9)
 
 Step 3: We then get a dataframe listed the possible solutions under current circumstances, and then we get a new recommendation which is `porae`.
-![image04](https://github.com/user-attachments/assets/20221e6c-512c-437d-8c1d-9432df324d17  width=100)
+![image04](https://github.com/user-attachments/assets/20221e6c-512c-437d-8c1d-9432df324d17)
 
 If word not found, enter `-1` to remove that word. 
 
 Step 4: Repeat step 2 and step 3, then finally we get the correct result. Scripts for `run.py` attached below:
-![image05](https://github.com/user-attachments/assets/abc80bcb-df2d-4f53-b4f0-425d683d3899 | width=100)
+![image05](https://github.com/user-attachments/assets/abc80bcb-df2d-4f53-b4f0-425d683d3899)
 
 
 ```python
